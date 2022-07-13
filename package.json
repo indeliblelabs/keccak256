@@ -4,6 +4,8 @@
   "description": "A wrapper for the keccak library to compute 256 bit keccak hash in JavaScript",
   "main": "dist/keccak256.js",
   "types": "dist/keccak256.d.ts",
+  "author": "Indelible Labs",
+  "license": "MIT",
   "scripts": {
     "test": "tape test/*.js",
     "build": "tsc",
@@ -13,20 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/indeliblelabs/keccak256js"
+    "url": "https://github.com/indeliblelabs/keccak256"
   },
   "bugs": {
-    "url": "https://github.com/indeliblelabs/keccak256js/issues"
+    "url": "https://github.com/indeliblelabs/keccak256/issues"
   },
-  "homepage": "https://github.com/indeliblelabs/keccak256js",
-  "author": {
-    "name": "Indelible Labs",
-    "url": "https://indeliblelabs.io"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/indeliblelabs/keccak256js/blob/master/LICENSE.md"
-  },
+  "homepage": "https://github.com/indeliblelabs/keccak256",
   "dependencies": {
     "bn.js": "^5.2.0",
     "buffer": "^6.0.3",
